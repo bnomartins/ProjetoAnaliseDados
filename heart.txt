@@ -1,0 +1,42 @@
+https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+Fonte
+Este conjunto de dados foi criado combinando diferentes conjuntos de dados já disponíveis independentemente, mas não combinados antes. Neste conjunto de dados, 5 conjuntos de dados cardíacos são combinados em 11 características comuns, o que o torna o maior conjunto de dados de doenças cardíacas disponível até agora para fins de pesquisa. Os cinco conjuntos de dados usados ​​para sua curadoria são:
+
+Conjuntos de dados semelhantes
+Conjunto de dados sobre hepatite C: LINK
+Conjunto de dados de previsão de gordura corporal: LINK
+Conjunto de dados de previsão de cirrose: LINK
+Conjunto de dados de previsão de AVC: LINK
+Conjunto de dados de classificação estelar - SDSS17: LINK
+Conjunto de dados de previsão da velocidade do vento: LINK
+Conjunto de dados de qualidade do vinho espanhol: LINK
+Contexto
+As doenças cardiovasculares (DCVs) são a principal causa de morte no mundo, tirando cerca de 17,9 milhões de vidas a cada ano, o que representa 31% de todas as mortes no mundo. Quatro em cada 5 mortes por DCV são causadas por ataques cardíacos e derrames, e um terço dessas mortes ocorre prematuramente em pessoas com menos de 70 anos de idade. A insuficiência cardíaca é um evento comum causado por DCVs e este conjunto de dados contém 11 características que podem ser usadas para prever uma possível doença cardíaca.
+
+Pessoas com doenças cardiovasculares ou que apresentam alto risco cardiovascular (devido à presença de um ou mais fatores de risco, como hipertensão, diabetes, hiperlipidemia ou doença já estabelecida) precisam de detecção e tratamento precoces, nos quais um modelo de aprendizado de máquina pode ser de grande ajuda.
+
+Informações de Atributo
+Idade: idade do paciente [anos]
+Sexo: sexo do paciente [M: Masculino, F: Feminino]
+ChestPainType: tipo de dor no peito [TA: Angina típica, ATA: Angina atípica, NAP: Dor não anginosa, ASY: Assintomática]
+RestingBP: pressão arterial em repouso [mm Hg]
+Colesterol: colesterol sérico [mm/dl]
+FastingBS: glicemia em jejum [1: se FastingBS > 120 mg/dl, 0: caso contrário]
+RestingECG: resultados do eletrocardiograma em repouso [Normal: Normal, ST: com anormalidade da onda ST-T (inversões da onda T e/ou elevação ou depressão do segmento ST de > 0,05 mV), HVE: mostrando hipertrofia ventricular esquerda provável ou definitiva pelos critérios de Estes]
+MaxHR: frequência cardíaca máxima atingida [Valor numérico entre 60 e 202]
+ExercícioAngina: angina induzida por exercício [S: Sim, N: Não]
+Oldpeak: oldpeak = ST [Valor numérico medido em depressão]
+ST_Slope: a inclinação do segmento ST do pico do exercício [Up: inclinação ascendente, Flat: plano, Down: inclinação descendente]
+HeartDisease: classe de saída [1: doença cardíaca, 0: normal]
+
+
+Cleveland: 303 observações
+Húngaro: 294 observações
+Suíça: 123 observações
+Long Beach VA: 200 observações
+Conjunto de dados Stalog (coração): 270 observações
+Total: 1190 observações
+Duplicado: 272 observações
+
+Final dataset: 918 observations

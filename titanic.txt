@@ -1,0 +1,21 @@
+https://www.kaggle.com/datasets/azeembootwala/titanic
+
+Sobre o conjunto de dados
+Contexto
+Esses dados foram originalmente retirados do Titanic: Machine Learning from Disaster . Mas estão mais refinados e limpos e alguns recursos foram autoprojetados, geralmente para regressão logística. Se você usar esses dados para outros modelos e se beneficiar deles, ficarei feliz em receber seus comentários e melhorias.
+
+Contente
+Existem dois arquivos, a saber:-
+train_data.csv :- Normalmente um conjunto de dados de 792x16. A coluna sobrevivente é sua variável de destino (a saída que você deseja prever). As colunas parch e sibsb do conjunto de dados original foram substituídas por uma única coluna chamada Family size .
+
+Todos os dados categóricos, como Embarked e pclass, foram recodificados usando o método de codificação one-hot.
+
+Além disso, mais 4 colunas foram adicionadas, reprojetadas da coluna Nome para Título_1 para Título_4, significando homens e mulheres dependendo se eram casados ​​ou não. (Sr., Sra., Mestre, Srta.). Uma análise adicional para ver se Casados ​​ou em outras palavras, pessoas com responsabilidades sociais tinham mais instintos de sobrevivência/ou não e a tendência é semelhante para ambos os gêneros.
+
+Todos os valores ausentes foram preenchidos com uma mediana dos valores da coluna. Todas as colunas de dados de valor real foram normalizadas.
+
+test_data.csv :- Um dado de 100x16, para testar seu modelo, O arranjo de test_data corresponde exatamente ao train_data
+
+Estou aberto a feedbacks e sugestões
+
+

@@ -1,0 +1,51 @@
+https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci
+
+Sobre o conjunto de dados
+Contexto
+Os dados já estão apresentados em https://www.kaggle.com/ronitf/heart-disease-uci , mas há algumas descrições e valores que estão errados, conforme discutido em https://www.kaggle.com/ronitf/heart-disease-uci/discussion/105877 . Então, aqui está um conjunto de dados reprocessado que foi verificado com os dados originais https://archive.ics.uci.edu/ml/datasets/Heart+Disease .
+
+Contente
+Existem 13 atributos
+
+idade: idade em anos
+sexo: sexo (1 = masculino; 0 = feminino)
+cp: tipo de dor no peito
+-- Valor 0: angina típica
+-- Valor 1: angina atípica
+-- Valor 2: dor não anginosa
+-- Valor 3: assintomática
+trestbps: pressão arterial em repouso (em mm Hg na admissão ao hospital)
+col: colesterol sérico em mg/dl
+fbs: (glicemia em jejum > 120 mg/dl) (1 = verdadeiro; 0 = falso)
+restecg: resultados eletrocardiográficos em repouso
+-- Valor 0: normal
+-- Valor 1: com anormalidade da onda ST-T (inversões da onda T e/ou elevação ou depressão do segmento ST de > 0,05 mV)
+-- Valor 2: mostrando hipertrofia ventricular esquerda provável ou definitiva pelos critérios de Estes
+thalach: frequência cardíaca máxima alcançada
+exang: angina induzida por exercício (1 = sim; 0 = não)
+oldpeak = depressão do segmento ST induzida pelo exercício em relação ao repouso
+inclinação: a inclinação do pico do segmento ST do exercício
+-- Valor 0: ascendente
+-- Valor 1: plano
+-- Valor 2: descendente
+ca: número de vasos principais (0-3) coloridos pela fluorosopia
+thal: 0 = normal; 1 = defeito corrigido; 2 = defeito reversível
+e o rótulo
+condição: 0 = sem doença, 1 = doença
+Agradecimentos
+Dados publicados no Kaggle: https://www.kaggle.com/ronitf/heart-disease-uci
+Descrição dos dados acima: https://www.kaggle.com/ronitf/heart-disease-uci/discussion/105877
+Dados originais https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+Criadores:
+Instituto Húngaro de Cardiologia. Budapeste: Andras Janosi, MD
+Hospital Universitário, Zurique, Suíça: William Steinbr
+Criadores:
+Instituto Húngaro de Cardiologia. Budapeste: Andras Janosi, MD
+Hospital Universitário, Zurique, Suíça: William Steinbrunn, MD
+Hospital Universitário, Basiléia, Suíça: Matthias Pfisterer, MD
+VA Medical Center, Long Beach e Cleveland Clinic Foundation: Robert Detrano, MD, Ph.D.
+Doador: David W. Aha (aha '@' ics.uci.edu) (714) 856-8779
+
+Inspiração
+Com os atributos descritos acima, você consegue prever se um paciente tem doença cardíaca?

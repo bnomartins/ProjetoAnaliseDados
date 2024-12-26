@@ -1,0 +1,47 @@
+https://www.kaggle.com/datasets/prasad22/healthcare-dataset
+
+Conjunto de dados de saúde
+Dados fictícios com problema de classificação de múltiplas categorias
+
+Conjunto de dados de saúde
+
+Novo Caderno
+
+Download
+
+Sobre o conjunto de dados
+Context:
+Este conjunto de dados sintéticos de saúde foi criado para servir como um recurso valioso para entusiastas de ciência de dados, aprendizado de máquina e análise de dados. Ele foi projetado para imitar dados de saúde do mundo real, permitindo que os usuários pratiquem, desenvolvam e mostrem suas habilidades de manipulação e análise de dados no contexto do setor de saúde.
+
+Inspiration:
+A inspiração por trás deste conjunto de dados está enraizada na necessidade de dados práticos e diversos sobre saúde para fins educacionais e de pesquisa. Os dados sobre saúde são frequentemente sensíveis e sujeitos a regulamentações de privacidade, o que os torna desafiadores para acesso para aprendizado e experimentação. Para abordar essa lacuna, aproveitei a biblioteca Faker do Python para gerar um conjunto de dados que espelha a estrutura e os atributos comumente encontrados em registros de saúde. Ao fornecer esses dados sintéticos, espero promover inovação, aprendizado e compartilhamento de conhecimento no domínio de análise de saúde.
+
+Dataset Information:
+Cada coluna fornece informações específicas sobre o paciente, sua admissão e os serviços de saúde fornecidos, tornando este conjunto de dados adequado para várias tarefas de análise e modelagem de dados no domínio da saúde. Aqui está uma breve explicação de cada coluna no conjunto de dados -
+
+Nome: Esta coluna representa o nome do paciente associado ao registro de saúde.
+Idade: Idade do paciente no momento da admissão, expressa em anos.
+Gênero: indica o gênero do paciente, "Masculino" ou "Feminino".
+Tipo sanguíneo: o tipo sanguíneo do paciente, que pode ser um dos tipos sanguíneos comuns (por exemplo, "A+", "O-", etc.).
+Condição médica: esta coluna especifica a principal condição médica ou diagnóstico associado ao paciente, como "Diabetes", "Hipertensão", "Asma" e muito mais.
+Data de admissão: Data em que o paciente foi admitido no estabelecimento de saúde.
+Médico: Nome do médico responsável pelo atendimento do paciente durante sua admissão.
+Hospital: Identifica o estabelecimento de saúde ou hospital onde o paciente foi internado.
+Provedor de seguro: esta coluna indica o provedor de seguro do paciente, que pode ser uma de várias opções, incluindo "Aetna", "Blue Cross", "Cigna", "UnitedHealthcare" e "Medicare".
+Valor de Faturamento: O valor de dinheiro faturado pelos serviços de saúde do paciente durante sua admissão. Isso é expresso como um número de ponto flutuante.
+Número do quarto: Número do quarto onde o paciente foi acomodado durante sua admissão.
+Tipo de admissão: especifica o tipo de admissão, que pode ser "Emergência", "Eletiva" ou "Urgente", refletindo as circunstâncias da admissão.
+Data de alta: data em que o paciente recebeu alta do estabelecimento de saúde, com base na data de admissão e um número aleatório de dias dentro de um intervalo realista.
+Medicação: Identifica um medicamento prescrito ou administrado ao paciente durante sua admissão. Exemplos incluem "Aspirina", "Ibuprofeno", "Penicilina", "Paracetamol" e "Lipitor".
+Resultados do teste: descreve os resultados de um teste médico conduzido durante a admissão do paciente. Os valores possíveis incluem "Normal", "Anormal" ou "Inconclusivo", indicando o resultado do teste.
+Usage Scenarios:
+Este conjunto de dados pode ser utilizado para uma ampla gama de propósitos, incluindo:
+
+Desenvolvendo e testando modelos preditivos de assistência médica.
+Praticar técnicas de limpeza, transformação e análise de dados.
+Criação de visualizações de dados para obter insights sobre tendências de assistência médica.
+Aprender e ensinar conceitos de ciência de dados e aprendizado de máquina em um contexto de saúde.
+Você pode tratá-lo como um problema de classificação multiclasse e resolvê-lo para resultados de teste que contêm 3 categorias (normal, anormal e inconclusivo).
+Acknowledgments:
+Reconheço a importância da privacidade e segurança dos dados de assistência médica e enfatizo que este conjunto de dados é inteiramente sintético. Ele não contém nenhuma informação real do paciente nem viola nenhuma regulamentação de privacidade.
+Espero que este conjunto de dados contribua para o avanço da ciência de dados e da análise de saúde e inspire novas ideias. Sinta-se à vontade para explorar, analisar e compartilhar suas descobertas com a comunidade Kaggle.
