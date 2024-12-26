@@ -6,5 +6,5 @@ pg.run()
 
 # st.write("Hello ,let's learn how to build a streamlit app together")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
