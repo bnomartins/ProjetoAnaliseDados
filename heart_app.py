@@ -148,7 +148,12 @@ st.write(accuracy_score(y_test, dtc.predict(X_test))*100)
 prediction = dtc.predict(user_input_variables)
 
 st.subheader("Previsão")
-st.write(prediction)
+st.write(prediction) ## 0 : Sem Doença, 1: Com Doença
+st.write("Diagnóstico: ")
+if prediction == 1:
+    st.write("Provável Doença Cardíaca")
+else:
+    st.write("Provável Sem Doença Cardíaca")
 
 st.subheader("Tabela de Dados")
 st.dataframe(df)

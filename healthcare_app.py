@@ -67,8 +67,10 @@ st.write(accuracy_score(y_test, dtc.predict(X_test))*100)
 # Previsão
 prediction = dtc.predict(user_input_variables)
 
-st.subheader("Previsão")
-st.write(prediction)
+st.subheader("Previsão") 
+st.write(prediction) ## Previsão: 0 : Não, 1: Sim
+st.write("Custo Médico Previsto: ", prediction)
+st.write("Custo Médico Real: ", user_input_variables['Billing Amount'])
 
 
 st.subheader("Tabela de Dados")
